@@ -1,0 +1,62 @@
+.banners-flex{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    top: 650px;
+    left: 450px;
+    width: 1300px;
+    height: 800px;
+}
+
+.bannerclass{
+    position: absolute;
+    left: -250px;
+    top: -100px;
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    border-radius:10px;
+    border-color: rgb(190, 137, 168);
+    border-width: 5px;
+}
+
+.bannerclass + .bannerclass{
+    position: absolute;
+    left: 300px;
+}
+
+.bannerclass + .bannerclass + .bannerclass{
+    position: absolute;
+    left: 850px;
+}
+
+.bannerclass + .bannerclass + .bannerclass + .bannerclass{
+    position: absolute;
+    left: -250px;
+    top: 350px;
+}
+
+.bannerclass + .bannerclass + .bannerclass + .bannerclass + .bannerclass{
+    position: absolute;
+    left: 300px;
+    top:  350px;
+}
+.bannerclass + .bannerclass + .bannerclass + .bannerclass + .bannerclass + .bannerclass{
+    position: absolute;
+    left: 850px;
+    top: 350px;
+}
+
+.bannerclass img{
+    width:500px;
+    height:292px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+.bannerclass p{
+    font-family: "Proxima Nova", system-ui, sans-serif;
+    font-size: 24px;
+}
+
