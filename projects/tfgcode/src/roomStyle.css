@@ -1,0 +1,127 @@
+#room-container{
+
+    position: absolute;
+    display: flex;
+    top: 600px;
+    border-radius: 30px;
+    width: 1200px;
+    height: 2800px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    
+}
+
+.room-label{
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    left: 650px;
+    background-color: #9c6a9e;
+    width: 1100px;
+    height:550px;
+    border-radius: 30px;
+}
+
+.room-banner-img{
+    height: 100%;
+    border-radius: 30px;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 2;
+    grid-column-end:5;
+}
+
+.price-p{
+    position: relative;
+    left: 398px;
+    top: 153px;
+    color: #FFF8DC;
+    font-size: 30px;
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.desc-p{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    color: #FFF8DC;
+    font-size: 30px;
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    
+}
+
+.metters-p{
+    position: relative;
+    color: #FFF8DC;
+    top:153px;
+    left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    
+}
+.rooms-p{
+    position: relative;
+    left: 265px;
+    top: 153px;
+    color: #FFF8DC;
+    font-size: 30px;
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+}
+.bathrooms-p{
+    position: relative;
+    left: 160px;
+    top: 153px;
+    color: #FFF8DC;
+    font-size: 30px;
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.room-banner-svg{
+    position: relative;
+    top: -580px;
+    left: 220px;
+    width: 50px;
+    height: 50px;
+}
+
+.room-label img:nth-of-type(2){
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 185px;
+    top: 153px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+.room-label img:nth-of-type(3){
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 300px;
+    top: 153px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+.room-label img:nth-of-type(4){
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 465px;
+    top: 153px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
