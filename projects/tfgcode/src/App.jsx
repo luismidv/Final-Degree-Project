@@ -3,9 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './rootStyle.css'
 import {Banner} from './Banner.jsx'
+import './roomStyle.css'
 
 
-function App() {
+
+export function App() {
   
 return (
   <div className = 'banners-flex'>
@@ -19,6 +21,10 @@ return (
   )
 }
 export default App
+
+
+
+
 
 
 
