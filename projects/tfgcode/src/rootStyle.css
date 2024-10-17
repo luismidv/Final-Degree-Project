@@ -3,7 +3,7 @@
     position: absolute;
     justify-content: space-around;
     top: 650px;
-    left: 680px;
+    left: 480px;
     width: 1300px;
     height: 800px;
 }
@@ -16,7 +16,7 @@
     height: 300px;
     background-color: transparent;
     border-radius:10px;
-    border-color: rgb(190, 137, 168);
+    
     border-width: 5px;
 }
 
@@ -51,6 +51,7 @@
     width:500px;
     height:292px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
     
 
 }
