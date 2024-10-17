@@ -4,9 +4,9 @@
 
 .h1title{
     top: 45px;
-    left:450px;
+    left:350px;
     position: absolute;
-    color: #9c6a9e;
+    color: #303ab2;
     font-family: "Proxima Nova", system-ui, sans-serif;
     font-size: 42px;
     font-weight: bold;
@@ -18,13 +18,14 @@
     font-size: 24px;
     font-weight: bold;
     top: 60px;
-    left: 950px;
-    color: #5c5c56;
+    left: 750px;
+    color: #303ab2;
+    
 
 }
 .mainlogo{
     position: absolute;
-    left: 300px;
+    left: 200px;
     top:0px;
     width: 150px;
     height: 150px;
@@ -34,23 +35,23 @@
     position: absolute;
     top: 150px;
     width: 100%;
-    height: 170px; 
-    background-color: #9c6a9e;
+    height: 130px; 
+    background-color: #303ab2;
 }
 
 .search-img {
     position: absolute;
-    left: 1370px;
-    top: 10px;
+    left: 1170px;
+    top: 5px;
     width: 50px;
     height: 50px;
 }
 .room-search{
     position: absolute;
-    left: 930px;
+    left: 745px;
     top: 5px;
     width:500px;
-    height: 60px;
+    height: 50px;
     background-color: #edf1f3;
     border-radius: 30px;
     overflow: hidden;
@@ -63,8 +64,8 @@
 }
 .submit-search{
     position: absolute;
-    left: 1280px;
-    top: 10px;
+    left: 1170px;
+    top: 5px;
     width: 50px;
     height: 50px;
 }
@@ -72,20 +73,21 @@
 .log-in-button {
     position: absolute;
     font-family: "Proxima Nova", system-ui, sans-serif;
-    left: 1700px;
-    top: 50px;
-    width: 180px;
-    height: 60px;
+    left: 1500px;
+    top: 40px;
+    width: 175px;
+    height: 40px;
     background-color: aliceblue;
     border-radius: 24px;
-    color: #5c5c56;
+    color: #303ab2;
     font-size: 30px;
     font-weight: bold;
 }
 .log-in-button p{
     position: absolute;
     left: 15px;
-    top: 5px;
+    top: -2px;
+    text-align: center;
 }
 
 .log-in-button p {
@@ -93,7 +95,7 @@
 }
 
 .log-in-button:hover{
-    background-color:#ad7daf;
+    background-color:#6991d6;
     transition-duration: 0.5s
 }
 
@@ -102,9 +104,9 @@
     font-family: "Proxima Nova", system-ui, sans-serif;
     font-size: 24px;
     font-weight: bold;
-    top: 460px;
-    left: 965px;
-    color: #5c5c56
+    top: 340px;
+    left: 765px;
+    color: #303ab2;
 }
 
 .articlejsx {
@@ -117,48 +119,47 @@
 .general-description{
     position: absolute;
     top: 1400px;
-    left: 880px;
+    left: 650px;
     font-family: "Proxima Nova", system-ui, sans-serif;
     font-weight: bold;
     font-size: 34px;
-    color:#9c6a9e
+    color:#303ab2
 }
 
 .general-description-p {
     position: absolute;
     font-size: 24px;
-    left: 650px;
+    left: 400px;
     top: 1460px;
     font-weight: bold;
-    color:#5c5c56 ;
+    color:303ab2 ;
 }
 
 form {
     font-size: 22px;
-    color:#5c5c56 ;
+    color:303ab2 ;
     font-family: "Proxima Nova", system-ui, sans-serif;
     
 }
 
 .form-section{
     position: absolute;
-    left : 730px;
+    left : 480px;
     top: 1700px;
     width: 1000px;
     height: 620px;
     border: 3px solid;
     border-radius: 40px;
-    border-color:#a891a8;
+    border-color:#303ab2;
     
 }
 
 .form-legend-info{
     position: relative;
-    color:#5c5c56 ;
     font-weight: bold;
     font-size: 26px;
     position: relative;
-    left : 350px;
+    left : 370px;
 }
 
 .label-info{
@@ -189,7 +190,7 @@ form {
 }
 .form-legend-routine{
     position: relative;
-    color:#5c5c56 ;
+    color:303ab2 ;
     font-weight: bold;
     font-size: 26px;
     position: relative;
@@ -210,9 +211,9 @@ select{
 
 .why-us{
     position: absolute;
-    top: 2600px;
-    left: 625px;
-    background-color: #9c6a9e;
+    top: 2400px;
+    left: 405px;
+    background-color: #303ab2;
     width: 1200px;
     height: 700px;
     border-radius: 30px;
@@ -267,7 +268,7 @@ select{
     position: absolute;
     left: 720px;
     width: 80px;
-    background-color:#9c6a9e;
+    background-color:#303ab2;
     border-radius: 10px;
     color: #FFF8DC;
     top: 560px;
@@ -276,7 +277,7 @@ select{
 .send-button1{
     position: absolute;
     left:820px;
-    background-color:#9c6a9e;
+    background-color:#303ab2;
     border-radius: 10px;
     color: #FFF8DC;
     width: 150px;
@@ -285,17 +286,16 @@ select{
 
 .about-us{
     position: absolute;
-    top: 3800px;
-    width: 100%;
+    top: 3400px;
     width: 100%;
     height: 500px;
-    background-color: #9c6a9e;
+    background-color: #303ab2;
 }
 
 .about-us-h1{
     position: absolute;
     font-size: 36px;
-    left: 1065px;
+    left: 830px;
     top : 0px;
     color: #FFF8DC;
     font-weight: bold;
@@ -303,7 +303,7 @@ select{
 
 .p-div-section{
     position: relative;
-    left: -150px;
+    left: -1150px;
     margin-top: 100px;
     color:#FFF8DC;
     font-size: 26px;
@@ -326,7 +326,7 @@ select{
 
 .p-div-section{
     position: relative;
-    left: 150px;
+    left:150px;
 }
 
 .p-div-section + p{
@@ -345,7 +345,7 @@ select{
     height: 60px;
     background-color: aliceblue;
     border-radius: 24px;
-    color: #5c5c56;
+    color: #303ab2;
     font-size: 24px;
     font-weight: bold;
 }
@@ -354,19 +354,19 @@ select{
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 90px;
+    top: 70px;
     width: 800px;
-    left:795px;
+    left:675px;
 }
 
 
 
 .rooti-button{
-    background-color: #a556a8;
-    width: 180px;
-    height: 60px;
+    background-color: #FFF8DC;
+    width: 150px;
+    height: 40px;
     border-radius: 24px;
-    color:#FFF8DC;
+    color:#303ab2;
     font-size: 24px;
     font-weight: bold;
     margin-left: 5px;
@@ -374,8 +374,8 @@ select{
 }
 
 .rooti-button img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: relative;
     top:-35px;
     left: 10px;
@@ -383,13 +383,13 @@ select{
 
 .rooti-button:hover{
     transition-duration: 0.5s;
-    background-color:#ad7daf;
+    background-color:#6991d6;
 }
 
 .log-in-button img {
     position: absolute;
-    left: 120px;
-    top: 5px;
-    width:50px;
-    height: 50px;
+    left: 125px;
+    top: 0px;
+    width:40px;
+    height: 40px;
 }
