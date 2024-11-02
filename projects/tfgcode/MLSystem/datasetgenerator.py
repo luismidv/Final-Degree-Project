@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+from  sklearn.preprocessing import OneHotEncoder
+
 
 def data_generator():
     name = ['John', 'Michael', 'Derek', 'Nick', 'Lucas', 'Jorge', 'George', 'Miguel', 'Anthony', 'Antonio', 'Mario', 'Marie' , 'Luna', 'Maria', 'Albert', 'Louisa'
@@ -26,11 +28,17 @@ def data_generator():
     sport_list = [yes_no_questions[i] for i in np.random.randint(0,2,10000)]
     smoking_list = [yes_no_questions[i] for i in np.random.randint(0,2,10000)]
     organized_list = [yes_no_questions[i] for i in np.random.randint(0,2,10000)]
-    
-    users_dataframe = pd.DataFrame(list(zip(name_list, surname_list, age_list, email_list, work_list, morn_night_list, studies_list, 
+    id_list = np.arange(1,10001,1)
+    users_dataframe = pd.DataFrame(list(zip( name_list, surname_list, age_list, email_list, work_list, morn_night_list, studies_list, 
                                             pets_list, cooking_list, sport_list, smoking_list, organized_list)),
-               columns =['Names', 'Surnames','Age', 'Email','Worktimes', 'Schedules', 'Studies level', 'Pets', 'Cooking', 'Sport', 'Smoking', 'Organized'])
+    columns =['Names', 'Surnames','Age', 'Email','Worktimes', 'Schedules', 'Studies level', 'Pets', 'Cooking', 'Sport', 'Smoking', 'Organized'])
+    users_dataframe.index = id_list
+    users_dataframe.index.name = "id"
     users_dataframe.to_csv('./MLSystem/data/users_dataframe.csv')
+
+    return users_dataframe
     
 
-data_generator()
+
+
+
