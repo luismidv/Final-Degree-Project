@@ -79,9 +79,9 @@
     height: 40px;
     background-color: aliceblue;
     border-radius: 24px;
-    color: #303ab2;
-    font-size: 30px;
-    font-weight: bold;
+    color: #111111;
+    font-size: 28px;
+    
 }
 .log-in-button p{
     position: absolute;
@@ -336,19 +336,7 @@ select{
     font-size: 20px;
 }
 
-#root-button{
-    position: absolute;
-    font-family: "Proxima Nova", system-ui, sans-serif;
-    left: 187px;
-    top: -70px;
-    width: 180px;
-    height: 60px;
-    background-color: aliceblue;
-    border-radius: 24px;
-    color: #303ab2;
-    font-size: 24px;
-    font-weight: bold;
-}
+
 
 .menu-div{
     display: flex;
@@ -366,9 +354,9 @@ select{
     width: 150px;
     height: 40px;
     border-radius: 24px;
-    color:#303ab2;
+    color:#0a0a0b;
     font-size: 24px;
-    font-weight: bold;
+    
     margin-left: 5px;
     text-align: center;
 }
