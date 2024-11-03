@@ -1,6 +1,7 @@
 import pandas as pd
 import similarity as sm
 
+
 def tenant_visualization(similarity_matrix, requested_tenants):
     #VIEW COMPATIBILITY BETWEEN REQUESTED TENANTS
     print(f"The options for visualizatio are:\n"+
