@@ -29,5 +29,5 @@ def encoder_matrix(dataframe, min_range, max_range):
     matriz_reescalada = ((matriz_s-min_original) / (max_original - min_original))*(max_range - min_range) + min_range
 
     new_similarity_matrix = pd.DataFrame(matriz_reescalada, index = dataframe.index, columns = dataframe.index)
-    return new_similarity_matrix
+    return new_similarity_matrixq
 
