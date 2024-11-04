@@ -15,7 +15,7 @@ def data_generator():
         'Loren', 'Josephine']
     surname = ['Bush', 'Smith', 'Jones', 'Williams', 'Brown','Taylor', 'Davies ', 'Evans ', 'Williams', 'Thomas ','Johnson', 'Roberts ', 'Lee ', 'Walker ', 'Wright'
            ,'Robinson ', 'Thompson ', 'White', 'Hughes ', 'Edwards ']
-    work_options = ['both of them', 'morning', 'night']
+    work_options = ['morning', 'night']
     morning_night = ['morning', 'night']
     studies_level = ['secondary', 'university']
     yes_no_questions = ['Yes', 'No']
@@ -42,6 +42,8 @@ def data_generator():
     users_dataframe.to_csv('./MLSystem/data/users_dataframe.csv')
     print(users_dataframe)
     return users_dataframe
+
+data_generator()
     
 
 
