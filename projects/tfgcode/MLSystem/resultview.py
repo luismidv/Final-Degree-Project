@@ -1,6 +1,6 @@
 import pandas as pd
 import similarity as sm
-
+import matplotlib.pyplot as plt
 
 def tenant_visualization(similarity_matrix, requested_tenants):
     #VIEW COMPATIBILITY BETWEEN REQUESTED TENANTS
@@ -28,9 +28,15 @@ def tenant_visualization(similarity_matrix, requested_tenants):
         case 4:
             most_compatible = tenant_lines.sort_values(ascending = False)
             most_compatible = dataframe.loc[requested_tenants]
-            print(f"Most compatible tenants registers\n {most_compatible}") 
+            print(f"Most compatible tenants registers\n {most_compatible}")
 
-dataframe = sm.data_preparing()
-sm.data_checking(dataframe)
-similarity_matrix = sm.encoder_matrix(dataframe, min_range = 0, max_range=100)
-tenant_visualization(similarity_matrix, [20,40,50,18,15])
+def view_kmeans_results(results,cluster_center): 
+    #FUNCTION TO VIEW KMEANS RESULTS
+    print(f"Starting kmeans viewing \n Cluster length: {results.shape}")
+    plt.scatter(results,results)
+    plt.show()
+
+# dataframe = sm.data_preparing()
+# sm.data_checking(dataframe)
+# similarity_matrix = sm.encoder_matrix(dataframe, min_range = 0, max_range=100)
+# tenant_visualization(similarity_matrix, [20,40,50,18,15])
