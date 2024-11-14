@@ -1,6 +1,12 @@
-from django.urls import path
 from rest_framework.routers import DefaultRouter
-from.views import PostViewSets
+from posts.api.urls import post_router
+from django.urls import path,include
 
-post_router = DefaultRouter()
-post_router.register(r'posts', PostViewSets)
+router = DefaultRouter()
+
+#core 
+router.registry.extend(post_router.registry)
+
+urlpatterns = [
+    path('', include(router.urls))
+]

@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'core',
+    'posts',
     'corsheaders',
-    'posts'
+    
     
 ]
 
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware'
 ]
-CORS_ALLOWED_ORIGINS = ['https://localhost:5173/']
+CORS_ALLOWED_ORIGINS = ['https://localhost:5173']
 
 REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES' : 'rest_framework.permissions.AllowAny'}
 CORS_ORIGIN_ALLOW_ALL = True
