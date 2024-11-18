@@ -1,4 +1,4 @@
-import './roomStyle.css'
+import './styles/roomStyle.css'
 
 
 export function RoomBanner({label, img, rooms, metters, bathrooms,price, bedroomsvg, 
