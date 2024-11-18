@@ -18,7 +18,7 @@
     font-size: 24px;
     font-weight: bold;
     top: 60px;
-    left: 750px;
+    left: 1150px;
     color: #303ab2;
     
 
@@ -35,22 +35,22 @@
     position: absolute;
     top: 150px;
     width: 100%;
-    height: 130px; 
-    background-color: #303ab2;
+    height: 190px; 
+    
 }
 
 .search-img {
     position: absolute;
-    left: 1170px;
-    top: 5px;
+    left: 550px;
+    top: 25px;
     width: 50px;
     height: 50px;
 }
 .room-search{
     position: absolute;
-    left: 745px;
-    top: 5px;
-    width:500px;
+    left: 220px;
+    top: 25px;
+    width:400px;
     height: 50px;
     background-color: #edf1f3;
     border-radius: 30px;
@@ -64,7 +64,7 @@
 }
 .submit-search{
     position: absolute;
-    left: 1170px;
+    left: 660px;
     top: 5px;
     width: 50px;
     height: 50px;
@@ -73,20 +73,20 @@
 .log-in-button {
     position: absolute;
     font-family: "Proxima Nova", system-ui, sans-serif;
-    left: 1500px;
-    top: 40px;
-    width: 175px;
+    left: 1550px;
+    top: 30px;
+    width: 105px;
     height: 40px;
-    background-color: aliceblue;
-    border-radius: 24px;
-    color: #111111;
-    font-size: 28px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    color: #fefcfc;
+    font-size: 24px;
     
 }
 .log-in-button p{
     position: absolute;
     left: 15px;
-    top: -2px;
+    top: 0px;
     text-align: center;
 }
 
@@ -118,7 +118,7 @@
 
 .general-description{
     position: absolute;
-    top: 1400px;
+    top: 1500px;
     left: 650px;
     font-family: "Proxima Nova", system-ui, sans-serif;
     font-weight: bold;
@@ -130,14 +130,14 @@
     position: absolute;
     font-size: 24px;
     left: 400px;
-    top: 1460px;
+    top: 1560px;
     font-weight: bold;
     color:303ab2 ;
 }
 
 form {
     font-size: 22px;
-    color:303ab2 ;
+    color:303ab2;
     font-family: "Proxima Nova", system-ui, sans-serif;
     
 }
@@ -145,7 +145,7 @@ form {
 .form-section{
     position: absolute;
     left : 480px;
-    top: 1700px;
+    top: 1800px;
     width: 1000px;
     height: 620px;
     border: 3px solid;
@@ -211,7 +211,7 @@ select{
 
 .why-us{
     position: absolute;
-    top: 2400px;
+    top: 2500px;
     left: 405px;
     background-color: #303ab2;
     width: 1200px;
@@ -342,31 +342,39 @@ select{
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 70px;
+    top: 20px;
     width: 800px;
-    left:675px;
+    left:685px;
 }
 
 
 
 .rooti-button{
-    background-color: #FFF8DC;
+    
     width: 150px;
-    height: 40px;
-    border-radius: 24px;
-    color:#0a0a0b;
+    height: 60px;
+    border-radius: 14px;
+    color:#f9f9fb;
     font-size: 24px;
     
-    margin-left: 5px;
+    margin-left: 20px;
     text-align: center;
 }
 
 .rooti-button img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     position: relative;
-    top:-35px;
-    left: 10px;
+    top:-65px;
+    left: 5px;
+}
+
+.rooti-button p{
+    position: relative;
+    left:25px;
+    top: -25px;
+    color:#303ab2
+    
 }
 
 .rooti-button:hover{
@@ -375,7 +383,7 @@ select{
 }
 
 .log-in-button img {
-    position: absolute;
+    display: hide;
     left: 125px;
     top: 0px;
     width:40px;

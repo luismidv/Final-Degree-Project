@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './rootStyle.css'
+import './styles/rootStyle.css'
 import {Banner} from './Banner.jsx'
-import './roomStyle.css'
+import './styles/roomStyle.css'
 
 
 
