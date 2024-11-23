@@ -4,6 +4,8 @@
         <meta charset ='UTF-8'/>
         <link rel = "stylesheet" href = "./src/styles/index1.css">
         <link href = "./src/styles/output.css" rel = "stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+
     </head>
 
     <body>
@@ -59,102 +61,14 @@
         &emsp; &emsp; &emsp; &emsp; &emsp; Our powered by AI system give us the power of selecting your perfect match</br>
         &emsp; &emsp; &emsp; &emsp;Fullfill the following data so we can find your match considering your preferences</p>
         
-        <p class = 'general-description' style = 'top : 1730px; left : 790px'>Let the hard work for us</p>
-        <section class ='form-section'>
-            <form class = 'form-class' method = 'post' action = '/'>
-                
-                <fieldset class = 'form-fieldset'>
-                    <legend class = 'form-legend-info'> Personal information</legend>
-
-                    <label class = 'label-info' for = "name">Nombre:</label>
-                    <input class = 'input-info' type = 'text' id = 'name' name = 'name'
-                    placeholder="Your name" required> </br>
-
-                    <label class = 'label-info' for = "surnames">Surname:</label>
-                    <input class = 'input-info-surname' type = "text" id = surnames surname = "surnames"
-                    placeholder="Your surnames" required> </br>
-
-                    <label class = 'label-info' for = "age">Age:</label>
-                    <input class = 'input-info-age' type = "number" id = 'age' edad = 'age'
-                    placeholder="Your age" required></br>
-
-                    <label class = 'label-info' for = "email">Email:</label>
-                    <input class = 'input-info-email' type = "email" id = "email" email = "email"
-                    placeholder="Your email" required> </br>
-                </fieldset>
-
-                <fieldset>
-                    <legend class = 'form-legend-routine'>Routine information </legend>
-
-                    <label class = 'label-routine' for = "worktime"> Do you work during the morning, the night or both of them?</label>
-                    <select name='worktime' id = "id-worktime">
-                        <option value = ''> Both of them</option>
-                        <option value = 'morning'> Morning</option>
-                        <option value = 'night'> Night</option>
-                    </select>
-                    </br>
-
-                    <label class = 'label-routine' for = 'biorythm'> When out of work, are you a morning or night person?</label>
-                    <select name = 'biorythm' id = 'id-biorythm'> 
-                        <option value = 'morning'> Morning</option>
-                        <option value = 'night'> Night</option>
-                    </select>
-                    </br>
-
-                    <label class = 'label-routine' for = 'studies'> Which is your studies level?</label>
-                    <select name = 'level_studies' id = 'level_studies'>
-                        <option value = 'secondary'> Secondary </option>
-                        <option value = 'universitary'>Universitary </option>
-                    </select>
-                    </br>
-
-                    <label class = 'label-routine' for = 'reading'> Do you usually read?</label>
-                    <select name = 'reading' id = 'id-read'>
-                        <option value = 'yes'> Yes </option>
-                        <option value = 'no'>  No</option>
-                    </select>
-                    </br>   
-
-                    <label class = 'label-routine' for = 'pets'> Are you fine with having pets at home?</label>
-                    <select name = 'pets' id = 'id-pets'>
-                        <option value = 'yes'> Yes</option>
-                        <option value = 'No'> No </option>
-                    </select>
-                    </br>
-
-                    <label class = 'label-routine' for = 'cook'> Do you usually cook?</label>
-                    <select name = 'cook' id = 'id-cook'>
-                        <option value = 'yes'> Yes</option>
-                        <option value = 'No'> No </option>
-                    </select>
-                    </br>
-                    <label class = 'label-routine' for = 'cook'> Do you often do sport?</label>
-                    <select name = 'sport' id = 'id-sport'>
-                        <option value = 'yes'> Yes</option>
-                        <option value = 'No'> No </option>
-                    </select>
-                    </br>
-
-                    <label class = 'label-routine' for = 'smoker'> Do you smoke?</label>
-                    <select name = 'smoker' id = 'id-smoker'>
-                        <option value = 'yes'> Yes</option>
-                        <option value = 'No'> No </option>
-                    </select>
-                    </br>
-
-                    <label class = 'label-routine' for = 'orderliness'> Do you consider yourself an organized person?</label>
-                    <select name = 'orderliness' id = 'id-order'>
-                        <option value = 'yes'> Yes</option>
-                        <option value = 'No'> No </option>
-                    </select>
-                    </br>
-                    <button class = 'send-button' type ='submit'> Send
-                    <button class = 'send-button1' type ='submit'> Save for now</button>
-                    </button>
-                </fieldset>
-             </form>
-        </section>
-
+        <p class = 'general-description' style = 'top : 1730px; left : 810px'>Let the hard work for us</p>
+        <a class = "form-button" href = "./src/templates/started.html" target = "_blank"> 
+            <p> Get started</p>
+        </a>
+       
+        
+        <script src = './src/divmenuhover.js'></script>
+        <script type = "module" src = './src/main.jsx'></script>
         <section class ='why-us'>
             <h1 class = 'why-us-h1'> Why choosing Roomatch </h1>
             <p class = 'why-us-p'> </br>Find your dream room </br></br>Match incredible partners </br> </br>
@@ -188,8 +102,36 @@
             </div>
         </section>
         
-        <script src = './src/divmenuhover.js'></script>
-        <script type = "module" src = './src/main.jsx'></script>
+        
+        <section class = 'about-us'>
+            <h1 class = 'about-us-h1'> About us</h1>
+            <div class = 'about-us-div'>
+                <div class = 'div-text-about'>
+                    <p class = 'p-div-section'> Our purpose </p>
+                        <p class = "purpose-description"> Mainly our purpose is to help people have</br>  the best experience when sharing a home</p>
+                </div>
+                <div class = 'div-text-about'>
+                    <p class = 'p-div-section'> Who are we?</p>
+                        <p class = "who-description"> Company created at 2024 as a final degreee project </br> with the idea of improving students sharing experience</p>
+                </div>      
 
+                <div class = 'div-text-about'>
+                    <p class = 'p-div-section'> Our team</p>
+                        <p class = 'team-description'> Our team is conformed by 1 person. </br> A computer science student with focus on Machine learning</p>
+               </div>
+
+                <div class = 'div-text-about'>
+                    <p class = 'p-div-section'> Work with us</p>
+                        <p class = 'work-description'> Feel free to message us via our email or linkedin</br> if you considering working with us</p>
+                </div>
+            </div>
+        </section>
+        
+        <script type = "module" src = './src/main.jsx'></script>
+        <script type = "module" src = './src/main1.jsx'></script>
+
+  
     </body>
+   
+    
 </html>

@@ -11,12 +11,12 @@ export function App() {
   
 return (
   <div className = 'banners-flex'>
-    <Banner image = '../media1/roombanner1.webp' title = 'Habitación número 1' ></Banner>
-    <Banner image = '../media1/roombanner2.jpg' title = 'Habitación número 2'></Banner>
-    <Banner image = '../media1/roombanner3.webp' title = 'Habitación número 3'></Banner> 
-    <Banner image = '../media1/roombanner4.jpg' title = 'Habitación número 4'></Banner>
-    <Banner image = '../media1/roombanner5.jpg' title = 'Habitación número 5'></Banner>
-    <Banner image = '../media1/roombanner6.webp' title = 'Habitación número 6'></Banner>
+    <Banner image = '../media1/roombanner1.webp' title = 'Room number 1' ></Banner>
+    <Banner image = '../media1/roombanner2.jpg' title = 'Room number 2'></Banner>
+    <Banner image = '../media1/roombanner3.webp' title = 'Room number 3'></Banner> 
+    <Banner image = '../media1/roombanner4.jpg' title = 'Room number 4'></Banner>
+    <Banner image = '../media1/roombanner5.jpg' title = 'Room number 5'></Banner>
+    <Banner image = '../media1/roombanner6.webp' title = 'Room number 6'></Banner>
   </div>  
   )
 }

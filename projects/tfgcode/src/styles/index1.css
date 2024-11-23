@@ -6,7 +6,7 @@
     top: 45px;
     left:350px;
     position: absolute;
-    color: #303ab2;
+    color: #545dc7;
     font-family: "Proxima Nova", system-ui, sans-serif;
     font-size: 42px;
     font-weight: bold;
@@ -19,7 +19,7 @@
     font-weight: bold;
     top: 60px;
     left: 1150px;
-    color: #303ab2;
+    color: #545dc7;;
     
 
 }
@@ -106,7 +106,7 @@
     font-weight: bold;
     top: 340px;
     left: 765px;
-    color: #303ab2;
+    color: #545dc7;
 }
 
 .articlejsx {
@@ -119,17 +119,17 @@
 .general-description{
     position: absolute;
     top: 1500px;
-    left: 650px;
+    left: 710px;
     font-family: "Proxima Nova", system-ui, sans-serif;
     font-weight: bold;
-    font-size: 34px;
-    color:#303ab2
+    font-size: 28px;
+    color:#545dc7;
 }
 
 .general-description-p {
     position: absolute;
     font-size: 24px;
-    left: 400px;
+    left: 420px;
     top: 1560px;
     font-weight: bold;
     color:303ab2 ;
@@ -145,12 +145,12 @@ form {
 .form-section{
     position: absolute;
     left : 480px;
-    top: 1800px;
+    top: 500px;
     width: 1000px;
     height: 620px;
-    border: 3px solid;
+    
     border-radius: 40px;
-    border-color:#303ab2;
+    
     
 }
 
@@ -160,6 +160,7 @@ form {
     font-size: 26px;
     position: relative;
     left : 370px;
+    top:-30px;
 }
 
 .label-info{
@@ -211,9 +212,9 @@ select{
 
 .why-us{
     position: absolute;
-    top: 2500px;
-    left: 405px;
-    background-color: #303ab2;
+    top: 2050px;
+    left: 365px;
+    background-color: #545dc7;
     width: 1200px;
     height: 700px;
     border-radius: 30px;
@@ -268,28 +269,28 @@ select{
     position: absolute;
     left: 720px;
     width: 80px;
-    background-color:#303ab2;
+    background-color:#070707;
     border-radius: 10px;
     color: #FFF8DC;
-    top: 560px;
+    top: 800px;
 }
 
 .send-button1{
     position: absolute;
     left:820px;
-    background-color:#303ab2;
+    background-color:#070707;
     border-radius: 10px;
     color: #FFF8DC;
     width: 150px;
-    top: 560px;
+    top: 800px;
 }
 
 .about-us{
     position: absolute;
-    top: 3400px;
+    top: 3000px;
     width: 100%;
     height: 500px;
-    background-color: #303ab2;
+    background-color: #545dc7;
 }
 
 .about-us-h1{
@@ -373,7 +374,7 @@ select{
     position: relative;
     left:25px;
     top: -25px;
-    color:#303ab2
+    color:#545dc7;
     
 }
 
@@ -388,4 +389,34 @@ select{
     top: 0px;
     width:40px;
     height: 40px;
+}
+
+.form-button{
+    position: absolute;
+    font-family: "Proxima Nova", system-ui, sans-serif;
+    left: 600px;
+    top: 1850px;
+    width: 750px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    color: #fefcfc;
+    font-size: 24px;
+}
+.form-button:hover{
+    background-color: #726767e1;
+    transition-duration: 0.5s;
+}
+
+.form-button p{
+    position: relative;
+    left:310px;
+}
+
+.declaration {
+    position: relative;
+    top: 150px;
+    left:30px;
+    color: black;
+    font-weight: bold;
 }
