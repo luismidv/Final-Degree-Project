@@ -5,7 +5,7 @@
     top: 450px;
     border-radius: 30px;
     width: 1800px;
-    height: 1200px;
+    height: 1300px;
     left:-220px;
     justify-content: space-around;
     display: flex;
@@ -18,18 +18,20 @@
     position: relative;
     display:grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     left: 300px;
     background-color: #545dc7;
-    width: 700px;
-    height:450px;
+    width: 800px;
+    height:500px;
     border-radius: 30px;
+
 }
 
 .room-banner-img{
     height: 100%;
     width: 450px;
     border-radius: 30px;
-    grid-row-start: 1;
+    grid-row-start: -3;
     grid-row-end: -1;
     grid-column-start: 2;
     grid-column-end:5;
@@ -38,8 +40,8 @@
 .price-p{
     position: relative;
     
-    left: 35px;
-    top: 218px;
+    left: 33px;
+    top: 178px;
     color: #FFF8DC;
     font-size: 18px;
     font-weight: bold;
@@ -50,9 +52,9 @@
 .desc-p{
     position: relative;
     left: 30px;
-    top: 50px;
+    top: 40px;
     color: #FFF8DC;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     grid-row-start: 1;
     grid-column-start: 1;
@@ -72,8 +74,8 @@
 }
 .rooms-p{
     position: relative;
-    left: 158px;
-    top:215px;
+    left: 135px;
+    top:178px;
     color: #FFF8DC;
     font-size: 18px;
     font-weight: bold;
@@ -83,7 +85,7 @@
 }
 .bathrooms-p{
     position: relative;
-    left: 160px;
+    left: 135px;
     top: 123px;
     color: #FFF8DC;
     font-size: 18px;
@@ -102,10 +104,10 @@
 
 .room-label img:nth-of-type(2){
     position: relative;
-    width: 45px;
-    height: 45px;
-    left: 185px;
-    top: 123px;
+    width: 35px;
+    height: 35px;
+    left: 158px;
+    top: 119px;
     grid-row-start: 1;
     grid-column-start: 1;
 }
@@ -113,17 +115,17 @@
     position: relative;
     width: 35px;
     height: 35px;
-    left: 188px;
-    top: 213px;
+    left: 158px;
+    top: 178px;
     grid-row-start: 1;
     grid-column-start: 1;
 }
 .room-label img:nth-of-type(4){
     position: relative;
-    width: 35px;
-    height: 35px;
-    left: 80px;
-    top: 213px;
+    width: 30px;
+    height: 30px;
+    left: 35px;
+    top: 243px;
     grid-row-start: 1;
     grid-column-start: 1;
 }
@@ -133,7 +135,7 @@
     width: 30px;
     height: 30px;
     left: 35px;
-    top: 275px;
+    top: 298px;
     grid-row-start: 1;
     grid-column-start: 1;
 }
@@ -151,7 +153,7 @@
 .username-p{
     position: relative;
     left: 100px;
-    top: 280px;
+    top: 246px;
     color: #FFF8DC;
     font-size: 18px;
     font-weight: bold;
@@ -162,7 +164,7 @@
 .direction-p{
     position: relative;
     left: 100px;
-    top: 340px;
+    top: 302px;
     color: #FFF8DC;
     font-size: 18px;
     font-weight: bold;
@@ -172,10 +174,36 @@
 
 .description-p{
     position: absolute;
-    top: 390px;
+    top: 360px;
     left: 40px;
     font-size: 18px;
     color:#FFF8DC;
 
+}
+
+.room-info{
+    position: relative;
+    top:260px;
+    left: 700px;
+    font-family: "Proxima Nova", system-ui, sans-serif;
+    width: 100px;
+    height:50px;
+    
+    color: #545dc7;
+    border-color: #545dc7;
+    border-width: 1px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.room-info:hover{
+    background-color: #8289d4;
+    transition-duration: 0.5s;
+    color:antiquewhite
+}
+
+.room-info p{
+    position: relative;
+    left: 38px;
+    top: -12px;
 }
 

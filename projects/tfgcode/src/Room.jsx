@@ -15,7 +15,6 @@ export function RoomBanner({label, img, rooms, metters, bathrooms,price, bedroom
             <p class = 'rooms-p'>{rooms}</p>
             <img class = "room-banner-svg" src = {bedroomsvg} ></img>
             <p class = 'price-p'>  {price}</p>
-            <img  src = {eurosvg} ></img>
             <img  src = {profilesvg}></img>
             <p class = "username-p"> {username}</p>
             <img src = {directionsvg}></img>
@@ -23,6 +22,12 @@ export function RoomBanner({label, img, rooms, metters, bathrooms,price, bedroom
             {description.split('\n').map((line,index) => (
                 <p class = "description-p" key={index}>{line}</p>
             ))}
+            <a class = "room-info" target = "_blank"> &emsp;&emsp;
+                    <p class = "link-text"> Go</p>
+                
+            </a>
+            
+            
             
             
         </div>
