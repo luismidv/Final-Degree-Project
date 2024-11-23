@@ -18,7 +18,7 @@
     font-size: 24px;
     font-weight: bold;
     top: 60px;
-    left: 1150px;
+    left: 1185px;
     color: #545dc7;;
     
 
@@ -53,7 +53,7 @@
     width:400px;
     height: 50px;
     background-color: #edf1f3;
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
 }
 .room-search::placeholder{
@@ -77,9 +77,11 @@
     top: 30px;
     width: 105px;
     height: 40px;
-    background-color: rgb(0, 0, 0);
+    
     border-radius: 25px;
-    color: #fefcfc;
+    border-color: #545dc7;
+    border-width: 1px;
+    color: #545dc7;
     font-size: 24px;
     
 }
@@ -90,24 +92,50 @@
     text-align: center;
 }
 
-.log-in-button p {
-    font-family: "Proxima Nova", system-ui, sans-serif;
-}
-
 .log-in-button:hover{
     background-color:#6991d6;
-    transition-duration: 0.5s
+    transition-duration: 0.5s;
+    color:antiquewhite;
+}
+
+.recomendations{
+    position: relative;
+    top: 300px;
+    left:225px;
 }
 
 .text-descriptive {
-    position:absolute;
+    position:relative;
+    font-family: "Proxima Nova", system-ui, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    top: 34px;
+    left: 22px;
+    color: #0a0a0a;
+}
+.text-descriptive-2 {
+    position:relative;
     font-family: "Proxima Nova", system-ui, sans-serif;
     font-size: 24px;
-    font-weight: bold;
-    top: 340px;
-    left: 765px;
-    color: #545dc7;
+    
+    top: 39px;
+    left: 22px;
+    color: #0a0a0a;
 }
+
+.text-div{
+    background: linear-gradient(90deg, #545dc7, rgba(199, 201, 201, 0.5));
+    border: 0;
+    border-radius: 8px;
+    height: 8px;
+    margin: 24px 0;
+    padding: 0;
+    width: 250px;
+    position: relative;
+    top:43px;
+    left:22px;
+}
+
 
 .articlejsx {
     color: black;
@@ -374,6 +402,7 @@ select{
     position: relative;
     left:25px;
     top: -25px;
+    font-weight: bold;
     color:#545dc7;
     
 }
@@ -381,15 +410,15 @@ select{
 .rooti-button:hover{
     transition-duration: 0.5s;
     background-color:#6991d6;
+    color: antiquewhite;
 }
 
-.log-in-button img {
-    display: hide;
-    left: 125px;
-    top: 0px;
-    width:40px;
-    height: 40px;
+.rooti-button:hover p{
+    transition-duration: 0.5s;
+    color: antiquewhite;
 }
+
+
 
 .form-button{
     position: absolute;
