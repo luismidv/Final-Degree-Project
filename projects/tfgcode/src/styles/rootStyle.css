@@ -52,8 +52,6 @@
     height:292px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
-    
-
 }
 
 .bannerclass p{
@@ -64,8 +62,9 @@
     top:40px;
 }
 
-.details{
+.details {
     position: relative;
+    display: block;
     left: 300px;
     font-family: "Proxima Nova", system-ui, sans-serif;
     width: 100px;
@@ -74,6 +73,9 @@
     color: white;
     border-radius: 15px;
     font-weight: bold;
+    text-align:start;
+    padding-top: 10px;
+    padding-left: 3px;
 }
 
 .details:hover{
@@ -83,4 +85,7 @@
     border-color: #545dc7;
     border-width: 1px;
 }
+
+
+
 
