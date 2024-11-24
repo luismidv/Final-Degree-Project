@@ -5,7 +5,7 @@ export function Banner({image,title}) {
         <div className = 'bannerclass'>
             <img src = {image}></img>
             <p> {title} </p>
-            <button class = "details"> More details</button>
+            <a class = "details" href="./src/templates/room.html"> More details</a>
             
         </div>
     )

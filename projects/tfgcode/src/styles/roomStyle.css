@@ -1,5 +1,5 @@
 #room-container{
-
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     display: flex;
     top: 450px;
@@ -15,10 +15,8 @@
 }
 
 .room-label{
+    font-family: 'Roboto', sans-serif;
     position: relative;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     left: 300px;
     background-color: #545dc7;
     width: 800px;
@@ -28,72 +26,48 @@
 }
 
 .room-banner-img{
-    height: 100%;
-    width: 450px;
-    border-radius: 30px;
-    grid-row-start: -3;
-    grid-row-end: -1;
-    grid-column-start: 2;
-    grid-column-end:5;
+    position: relative;
+    left: 400px;
+    border-radius: 25px;
+    width: 400px;
+    height: 500px;
+    
+    
 }
 
 .price-p{
     position: relative;
-    
     left: 33px;
-    top: 178px;
+    top: -485px;
     color: #FFF8DC;
-    font-size: 18px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
+    
 }
 
 .desc-p{
     position: relative;
-    left: 30px;
-    top: 40px;
+    left:30px;
+    top: -470px;
     color: #FFF8DC;
     font-size: 24px;
     font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
+    
     
 }
 
 .metters-p{
     position: relative;
     color: #FFF8DC;
-    top:123px;
-    left: 30px;
-    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    top:03px;
+    left: 15px;
+    font-size: 16px;
     font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
+    
     
 }
-.rooms-p{
-    position: relative;
-    left: 135px;
-    top:178px;
-    color: #FFF8DC;
-    font-size: 18px;
-    font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
-
-}
-.bathrooms-p{
-    position: relative;
-    left: 135px;
-    top: 123px;
-    color: #FFF8DC;
-    font-size: 18px;
-    font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
 .room-banner-svg{
     position: relative;
     top: -580px;
@@ -102,108 +76,146 @@
     height: 50px;
 }
 
-.room-label img:nth-of-type(2){
-    position: relative;
-    width: 35px;
-    height: 35px;
-    left: 158px;
-    top: 119px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-.room-label img:nth-of-type(3){
-    position: relative;
-    width: 35px;
-    height: 35px;
-    left: 158px;
-    top: 178px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-.room-label img:nth-of-type(4){
-    position: relative;
-    width: 30px;
-    height: 30px;
-    left: 35px;
-    top: 243px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-.room-label img:nth-of-type(5){
-    position: relative;
-    width: 30px;
-    height: 30px;
-    left: 35px;
-    top: 298px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-.room-label img:nth-of-type(6){
-    position: relative;
-    width: 40px;
-    height: 40px;
-    left: 30px;
-    top: 330px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-.username-p{
-    position: relative;
-    left: 100px;
-    top: 246px;
-    color: #FFF8DC;
-    font-size: 18px;
-    font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-.direction-p{
-    position: relative;
-    left: 100px;
-    top: 302px;
-    color: #FFF8DC;
-    font-size: 18px;
-    font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
 .description-p{
     position: absolute;
-    top: 360px;
+    top: 350px;
     left: 40px;
     font-size: 18px;
     color:#FFF8DC;
+    
 
 }
 
 .room-info{
+    display: block;
     position: relative;
-    top:260px;
-    left: 700px;
-    font-family: "Proxima Nova", system-ui, sans-serif;
-    width: 100px;
-    height:50px;
-    
-    color: #545dc7;
-    border-color: #545dc7;
+    top:-360px;
+    left: 25px;
+    width: 350px;
+    height: 40px;
+    border-radius: 14px;
     border-width: 1px;
-    border-radius: 15px;
-    font-weight: bold;
+    color: white;
+    padding-left: 160px;
+    padding-top: 8px;
+    background-color: #646cc9;
+    border-color:#646cc9;;
+    
+    
 }
 .room-info:hover{
     background-color: #8289d4;
     transition-duration: 0.5s;
-    color:antiquewhite
+    color:antiquewhite;
+    
 }
 
-.room-info p{
+
+
+.head-info{
     position: relative;
-    left: 38px;
-    top: -12px;
+    background-color: #666ec6;
+    width: 80px;
+    height: 30px;
+    top:-462px;
+    left:30px;
+    border-radius: 25px;
+} 
+
+.head-info +.head-info{
+    position: relative;
+    background-color: #666ec6;
+    width: 80px;
+    height: 30px;
+    top:-492px;
+    left:120px;
+    border-radius: 25px;
+    
+}
+
+.head-info + .head-info +.head-info{
+    position: relative;
+    background-color: #666ec6;
+    width: 80px;
+    height: 30px;
+    top:-522px;
+    left:210px;
+    border-radius: 25px;
+    
+}
+
+.bathroom-img{
+    position: relative;
+    top:-26px;
+    left:35px;
+    width:30px;
+    height:30px;
+    
+}
+.bathrooms-p{
+    position: relative;
+    left: 15px;
+    top: 2px;
+    color: #FFF8DC;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.bedroom-img{
+    position: relative;
+    width:30px;
+    height:30px;
+    left:35px;
+    top:-26px;
+    
+}
+
+.bedroom-p{
+    position: relative;
+    left: 15px;
+    top:1px;
+    color: #FFF8DC;
+    font-size: 18px;
+    font-weight: bold;
+    
+
+}
+
+.profile-img{
+    position: relative;
+    width:30px;
+    height: 30px;
+    top: -458px;
+    left:30px;
+    
+}
+.username-p{
+    position: relative;
+    top: -482px;
+    left:90px;
+    color: #FFF8DC;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.direction-img{
+    position: relative;
+    width:30px;
+    height: 30px;
+    top: -465px;
+    left:29px;
+    
+}
+
+.direction-p{
+    position: relative;
+    top: -490px;
+    left:90px;
+    color: #FFF8DC;
+    font-size: 18px;
+    font-weight: bold;
+    
 }
 
